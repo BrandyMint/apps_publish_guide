@@ -1,7 +1,7 @@
 How to publish an app
 ============
 
-# [Russian version](https://github.com/BrandyMint/apps_publish/blob/master/ru.md)
+[Switch to Russian](https://github.com/BrandyMint/apps_publish/blob/master/ru.md)
 
 # Common requirements
 
