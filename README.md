@@ -1,15 +1,15 @@
-Публикация приложений: что нужно?
+How to publish an app
 ============
 
-# Общее
+# Common requirements
 
-* логотип
-* слоган (теглайн)
-* описание для AppStore и Google Play; http://bjango.com/articles/appstoredescriptionpreviewer/
-* ключевые слова для AppStore (до 100 символов) и Google Play
-* скриншоты для AppStore (iPhone 3.5in Retina, iPhone 4in Retina, iPad Retina) и Google Play (смартфон, плашнет)
-* __иконки приложения__
-  - AppStore https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/IconMatrix.html
+* logotype
+* tagline
+* AppStore and Google Play description; [AppStore previewer](http://bjango.com/articles/appstoredescriptionpreviewer/)
+* AppStore (100 characters max) and Google Play keywords
+* screenshots for AppStore (iPhone 3.5in Retina, iPhone 4in Retina, iPad Retina) and Google Play (smartphone, tablet)
+* __icons__
+  - AppStore [guides](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/IconMatrix.html)
     - 29x29, 29x29@2x
     - 40x40, 40x40@2x
     - 50x50, 50x50@2x
@@ -18,30 +18,31 @@
     - 72x72, 72x72@2x
     - 76x76, 76x76@2x
     - 512x512, 512x512@2x (Artwork)
-  - Google Play https://support.google.com/googleplay/android-developer/answer/1078870?hl=en
+  - Google Play [guides](https://support.google.com/googleplay/android-developer/answer/1078870?hl=en)
     - 36x36
     - 48x48
     - 72x72
     - 96x96
     - 512x512 (ArtWork)
-    - 1024x512 (опционально, для раздела рекомендаций)
-    - 180х120 (опционально, для рекламы)
-* (опционально) сплэш-экраны
-
+    - 1024x512 (optional, for recommendations)
+    - 180х120 (optional, for ads)
+* (optional) splash screens
 
 
 # iOS
 
 * __Apple Developer account__
-* создать сертификат разработчика в iOS Dev Center
-* создать приложение в iOS Dev Center (App ID)
-* создать provisioning profile (distribution) для App ID для публикации в AppStore
-* создать приложение в iTunes Connect и заполнить необходимые поля https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa
-* подготовить iTunes Connect к загрузке бинарника (архива, binary) приложения
+* iOS Dev Center
+  * create developer certificate
+  * create an app (App ID)
+  * create provisioning profile (for distribution in AppStore) for an App ID
+* [iTunes Connect](https://itunesconnect.apple.com/)
+  * create an app and fill in description, screenshots, etc
+  * prepare for binary (Xcode archive) upload
 * Xcode
-  * добавить иконки в приложение, (опционально) добавить сплэш-экраны
-  * проверить target-версии и устройства, версию приложения (только цифры с точками)
-  * поставить provisioning profile (distribution для AppStore), code signing identity
+  * add icons and (optional) splash screens
+  * check deployment targets, devices, app version (numbers and dots only)
+  * select provisioning profile (for distribution in AppStore) and code signing identity
   * Scheme: iOS Device
   * Product > Archive
-  * Organizer > выбрать приложение > выбрать архив > Distribute
+  * Organizer > [app] > [archive] > Distribute
