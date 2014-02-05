@@ -36,12 +36,12 @@
 * создать сертификат разработчика в iOS Dev Center
 * создать приложение в iOS Dev Center (App ID)
 * создать provisioning profile (distribution) для App ID для публикации в AppStore
+* создать приложение в iTunes Connect и заполнить необходимые поля https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa
+* подготовить iTunes Connect к загрузке бинарника (архива, binary) приложения
 * Xcode
-  * Xcode > добавить иконки в приложение, (опционально) добавить сплэш-экраны
-  * Xcode > Scheme: iOS Device
-  * создать приложение в iTunes Connect и заполнить необходимые поля https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa
-  * подготовить iTunes Connect к загрузке бинарника (архива, binary) приложения
-  * Xcode проверить target-версии и устройства
-  * Xcode поставить provisioning profile (distribution для AppStore)
-  * Xcode > Product > Archive
-  * Xcode > Organizer > выбрать приложение > выбрать архив > Distribute
+  * добавить иконки в приложение, (опционально) добавить сплэш-экраны
+  * Scheme: iOS Device
+  * проверить target-версии и устройства
+  * поставить provisioning profile (distribution для AppStore)
+  * Product > Archive
+  * Organizer > выбрать приложение > выбрать архив > Distribute
