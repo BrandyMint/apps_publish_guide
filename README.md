@@ -40,8 +40,8 @@
 * подготовить iTunes Connect к загрузке бинарника (архива, binary) приложения
 * Xcode
   * добавить иконки в приложение, (опционально) добавить сплэш-экраны
-  * проверить target-версии и устройства
-  * поставить provisioning profile (distribution для AppStore)
+  * проверить target-версии и устройства, версию приложения (только цифры с точками)
+  * поставить provisioning profile (distribution для AppStore), code signing identity
   * Scheme: iOS Device
   * Product > Archive
   * Organizer > выбрать приложение > выбрать архив > Distribute
