@@ -1,4 +1,4 @@
-How to publish an app
+How to publish an app [russian](https://github.com/BrandyMint/apps_publish/blob/master/ru.md)
 ============
 
 # Common requirements
