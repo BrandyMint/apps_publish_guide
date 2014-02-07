@@ -1,13 +1,14 @@
 Как опубликовать приложение
 ============
 
-# Общее
+# Картинки и тексты
 
-* логотип
-* слоган (теглайн)
-* описание для AppStore и Google Play; http://bjango.com/articles/appstoredescriptionpreviewer/
-* ключевые слова для AppStore (до 100 символов) и Google Play
-* скриншоты для AppStore (iPhone 3.5in Retina, iPhone 4in Retina, iPad Retina) и Google Play (смартфон, плашнет)
+* название (30 символов для play)
+* слоган (теглайн) (в play нет)
+* описание (до 4 тыс)
+* рекламный текст (до 80 play)
+* ключевые слова для AppStore (до 100 символов)
+* Минмум 3 скриншона для AppStore (iPhone 3.5in Retina, iPhone 4in Retina, iPad Retina) и Google Play (смартфон, плашнет)
 * __иконки приложения__
   - AppStore https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/IconMatrix.html
     - 29x29, 29x29@2x
@@ -29,7 +30,6 @@
 * (опционально) сплэш-экраны
 
 
-
 # iOS
 
 * __Apple Developer account__
@@ -45,3 +45,8 @@
   * Scheme: iOS Device
   * Product > Archive
   * Organizer > выбрать приложение > выбрать архив > Distribute
+
+
+# Ссылки
+
+http://bjango.com/articles/appstoredescriptionpreviewer/
