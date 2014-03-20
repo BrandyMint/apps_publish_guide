@@ -1,6 +1,9 @@
 Как опубликовать приложение
 ============
 
+[Примеры изображение](https://github.com/fcamblor/cordova-demo-resources/tree/master/res)
+
+
 ## Картинки и тексты
 
 * название (30 символов для play)
